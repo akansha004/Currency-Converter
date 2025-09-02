@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-image: url("images/currency-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: beige;
+  color: white;
+}
+h2{
+    background-color: #ac3787;
+    color: white;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.35rem;
+     text-align: center;
+      border: 1px solid #fff;   /* White thin border */
+  border-radius: 6px;   
+     
+}
+.container{
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 60vh;
+    width: 50vh;
+}
+
+form {
+  margin: 2rem 0 1rem 0;
+}
+
+form select,
+button,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+
+form input {
+  border: 1px solid lightgray;
+  font-size: 1rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+/* icon design */
+.dropdown i {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+
+.selectcontainer img {
+  max-width: 2rem;
+}
+
+.selectcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  border-radius: 0.5rem;
+  border: 1px solid lightgray;
+}
+
+.selectcontainer select {
+  font-size: 1rem;
+  width: auto;
+}
+
+.msg {
+  margin: 2rem 0 2rem 0;
+   border: 0.1px solid #fff;   /* White thin border */
+  border-radius: 6px;   
+}
+
+form button {
+  height: 3rem;
+  background-color: #000000;
+  color: #fff;
+  font-size: 1.15rem;
+  cursor: pointer;
+   border: 1px solid #fff;   /* White thin border */
+  border-radius: 6px;     
+}
